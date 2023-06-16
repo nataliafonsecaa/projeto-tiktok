@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./Video.css";
 import vD from "../videos/Download.mp4";
-import VideoFooter from "../components/footer/VideoFooter.js";
+import VideoFooter from "./components/footer/VideoFooter"
 
 
 function Video() {
@@ -28,6 +28,7 @@ function Video() {
       ></video>
 
 {/*side bar*/}
+
 <VideoFooter>
   </VideoFooter>
 
