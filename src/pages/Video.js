@@ -1,7 +1,8 @@
 import React, { useRef, useState } from "react";
-import videoFooter from "./components/footer/videoFooter.js";
 import "./Video.css";
 import vD from "../videos/Download.mp4";
+import VideoFooter from "../components/footer/VideoFooter.js";
+
 
 function Video() {
   const videoRef = useRef(null);
@@ -27,8 +28,8 @@ function Video() {
       ></video>
 
 {/*side bar*/}
-
-<videoFooter />
+<VideoFooter>
+  </VideoFooter>
 
     </div>
   );
