@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./Video.css";
 import vD from "../videos/Download.mp4";
+import vD2 from "../videos/video2.mp4"
 import VideoFooter from "./components/footer/VideoFooter"
 import VideosSidebar from "./components/footer/sidebar/VideosSidebar";
 
