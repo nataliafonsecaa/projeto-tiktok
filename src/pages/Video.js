@@ -1,13 +1,11 @@
 import React, { useRef, useState } from "react";
 import "./Video.css";
 import vD from "../videos/Download.mp4";
-import vD2 from "../videos/video2.mp4"
 import VideoFooter from "./components/footer/VideoFooter"
 import VideosSidebar from "./components/footer/sidebar/VideosSidebar";
 
 
-
-function Video() {
+function Video({likes, messages, shares}) {
   const videoRef = useRef(null);
   const [ play, setPlay ] = useState(false);
 
@@ -31,7 +29,12 @@ function Video() {
       ></video>
 
 
-<VideosSidebar> </VideosSidebar>
+<VideosSidebar> 
+  likes={likes}
+  messages={messages}
+  shares={shares}
+
+</VideosSidebar>
 
 <VideoFooter>
 

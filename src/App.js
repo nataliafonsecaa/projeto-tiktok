@@ -5,7 +5,12 @@ function App(){
   return(
     <div className='App'>
       <div className='app_videos'>
-      <Video />
+      <Video 
+        likes={111}
+        messages={222}
+        shares={300}
+      />
+
       <Video />
       <Video />
 
